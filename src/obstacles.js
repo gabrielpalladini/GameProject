@@ -36,7 +36,7 @@ class Obstacles {
             return false;
         }
     }
-
+    // test
     drawingObstacles() {
         this.x -= 2;
         image(this.img, this.x, this.y, 200, 200);
